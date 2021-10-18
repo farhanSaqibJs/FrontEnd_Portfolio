@@ -1,6 +1,6 @@
 <h2 align="center">
   Portfolio Website - ReactJS<br/>
-  <a href="http://farhansaqib.com/" target="_blank">QweAmDone</a>
+  <a href="http://farhansaqib.com/" target="_blank">QueAmDone</a>
 </h2>
 <div align="center">
   <img alt="Demo" src="" />
