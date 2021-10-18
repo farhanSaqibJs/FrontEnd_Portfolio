@@ -8,8 +8,8 @@ import pdf from "../../Assets/Soumyajit-Behera.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 
 function Resume() {
-  const uri = "https://porfolio-backend.vercel.app/ranks/getRanks";
-  const [spojRank, upadteSpojRank] = useState(0);
+  const uri = "https://ranks/getRanks";
+  const [farhanRank, upadtefarhanRank] = useState(0);
   const [hackerrank, upadteHackerank] = useState(0);
   const [sem, upadateSem] = useState(0);
   const [cgpa, upadteCgpa] = useState(0);
@@ -18,7 +18,7 @@ function Resume() {
     axios
       .get(uri)
       .then((res) => {
-        upadteSpojRank(res.data.message[0].spojRank);
+        upadtefarhanRank(res.data.message[0].farhanRank);
         upadteHackerank(res.data.message[1].hackerrank);
         upadteCgpa(res.data.message[2].cgpa);
         upadateSem(res.data.message[3].sem);
@@ -98,7 +98,7 @@ function Resume() {
               title=""
               content={[
                   "Medium",
-                // `Current rank in Spoj ${spojRank}`,
+                // `Current rank in farhan ${farhanRank}`,
                 // `Current rank in HackerRank  ${hackerrank}`,
                 // "Top Performer in Code-Break 1.0",
                 // "Participant in Hack-A-Bit 2019",
