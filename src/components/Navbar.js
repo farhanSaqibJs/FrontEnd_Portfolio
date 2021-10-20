@@ -40,7 +40,7 @@ function NavBar() {
       <Container>
         <Navbar.Brand href="/">
           {/*<img src={logo} className="img-fluid logo" alt="brand" />*/}
-          QueAmDone
+          Jeder
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"

@@ -2,10 +2,7 @@ const express = require("express");
 const mongoose = require("mongoose");
 const bodyParser = require("body-parser");
 const cors = require("cors");
-const config = require("./config");
-const likeRoute = require("./Routes/likeMethods");
-const rankRoute = require("./Routes/rankMethods");
-const uri = config.getSecretToken();
+const uri = "mongodb+srv://farhansaqib444:o5PHMdg27DzXkKSq@cluster0.exkqu.mongodb.net/test";
 
 const app = express();
 const Port = process.env.PORT || 3600;
@@ -18,17 +15,17 @@ app.get("/", (req, res, next) => {
   return res.json({ message: "Server Running" });
 });
 
-app.use("/likes", likeRoute);
-app.use("/ranks", rankRoute);
 app.listen(Port, () => {
   console.log(`Server Running ${Port}`);
 });
+try {
+  // Connect to the MongoDB cluster
+  mongoose.connect(
+      uri,
+      { useNewUrlParser: true, useUnifiedTopology: true },
+      () => console.log(" Mongoose is connected"),
+  );
+} catch (e) {
+  console.log("could not connect");
+}
 
-mongoose
-  .connect(uri)
-  .then(function () {
-    console.log("Moongose Connection Successful");
-  })
-  .catch(function (err) {
-    console.log(err);
-  });
