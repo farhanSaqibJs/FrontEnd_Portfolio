@@ -1,9 +1,9 @@
 <h2 align="center">
   Portfolio Website - ReactJS<br/>
-  <a href="http://farhansaqib.com/" target="_blank">Jeder</a>
+  <a href="http://farhansaqib.com/" target="_blank">By fs | Jeder</a>
 </h2>
 <div align="center">
-  <img alt="Demo" src="" />
+  <img alt="farhan saqib" src="https://raw.githubusercontent.com/farhanSaqibJs/FrontEnd_Portfolio/development/Images/readme-img.png" />
 </div>
 
 <br/>
