@@ -1,10 +1,17 @@
 <h2 align="center">
   Portfolio Website - ReactJS<br/>
   <a href="http://farhansaqib.com/" target="_blank">By fs | Jeder</a>
+  <a href="http://jederalle.com/" target="_blank">Jeder Alle</a>
+  <a href="https://jederalle.com/scratch-top-image-with-mouse-dragging-javascript-example/" target="_blank">Scratch top image with mouse dragging – Javascript JavaScript scratch effect Example</a>
+  <a href="https://jederalle.com/whatsapp-plus-latest-version-2022-download-secure-apk/" target="_blank">Whatsapp Plus Apk</a>
+  
+  
 </h2>
 <div align="center">
   <img alt="farhan saqib" src="https://raw.githubusercontent.com/farhanSaqibJs/FrontEnd_Portfolio/development/Images/readme-img.png" />
 </div>
+
+
 
 <br/>
 
