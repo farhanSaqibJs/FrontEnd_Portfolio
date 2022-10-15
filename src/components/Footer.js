@@ -23,7 +23,7 @@ function Footer() {
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href=" "
+                href="https://github.com/farhanSaqibJs"
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -31,19 +31,19 @@ function Footer() {
                 <AiFillGithub />
               </a>
             </li>
+            {/*<li className="social-icons">*/}
+            {/*  <a*/}
+            {/*    href=" "*/}
+            {/*    style={{ color: "white" }}*/}
+            {/*    target="_blank"*/}
+            {/*    rel="noopener noreferrer"*/}
+            {/*  >*/}
+            {/*    <AiOutlineTwitter />*/}
+            {/*  </a>*/}
+            {/*</li>*/}
             <li className="social-icons">
               <a
-                href=" "
-                style={{ color: "white" }}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <AiOutlineTwitter />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href=" "
+                href="https://www.linkedin.com/in/farhan-saqib-%E2%9C%94-444203117/"
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -51,16 +51,16 @@ function Footer() {
                 <FaLinkedinIn />
               </a>
             </li>
-            <li className="social-icons">
-              <a
-                href="https://www.instagram.com/s.o.u.m.y.a_j.i.t/"
-                style={{ color: "white" }}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <AiFillInstagram />
-              </a>
-            </li>
+            {/*<li className="social-icons">*/}
+            {/*  <a*/}
+            {/*    href="https://www.instagram.com/s.o.u.m.y.a_j.i.t/"*/}
+            {/*    style={{ color: "white" }}*/}
+            {/*    target="_blank"*/}
+            {/*    rel="noopener noreferrer"*/}
+            {/*  >*/}
+            {/*    <AiFillInstagram />*/}
+            {/*  </a>*/}
+            {/*</li>*/}
           </ul>
         </Col>
       </Row>

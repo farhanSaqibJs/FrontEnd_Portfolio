@@ -98,7 +98,7 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href=""
+                href="https://jederalle.com/"
                 target="_blank"
                 rel="noreferrer"
               >
